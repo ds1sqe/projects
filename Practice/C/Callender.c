@@ -9,11 +9,11 @@ time_t t = time(NULL);
 struct tm now =*localtime(&t);
 
 
-void whatIsdow(int day){
+int whatIsdow(int day){
 //INPUT DAY
 //OUTPUT DOW
 
-char dow;
+int dow;
 return dow;
 }
 	
