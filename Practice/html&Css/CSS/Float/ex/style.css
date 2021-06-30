@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.parent {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+.parent::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: #eee;
+    font-weight: 600;
+}
+
+.red {
+    background-color: red;
+    float: left;
+}
+.blue {
+    background-color: blue;
+    float: left;
+}
+.yellow {
+    background-color: yellow;
+    float: left;
+}
+
+.other {
+    background-color: #202020;
+    color: whitesmoke;
+}
