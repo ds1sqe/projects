@@ -1,0 +1,274 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0061C1C0 -il C:\\Users\\ds1sqe\\AppData\\Local\\Temp\\_CL_ae6a4a59ast -typedil -f memory.cpp -Ze -Gs -pc \\:/ -I ./ -I ../include -I ./stl -I ./math -I ./CPlusPlus -nologo -W 4 -diagnostics:column -Ot -DCODE_ANALYSIS -DFLOATINGPT -D__STDC__ -DARCH_X86 -MD -Zp1 -Zc:wchar_t -Zc:forScope -FoC:\\Users\\ds1sqe\\projects\\Practice\\OS\\sky-os\\Sorce\\CommonLib\\Intermediate\\memory.obj -FdC:\\Users\\ds1sqe\\projects\\Practice\\OS\\sky-os\\Sorce\\Debug\\CommonLib.pdb -external:W 4 -Gd -wd 4146 -wd 4244 -wd 4310 -wd 4100 -wd 4702 -analyze:projectdirectory C:\\Users\\ds1sqe\\projects\\Practice\\OS\\sky-os\\CommonLib -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -Oy -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I Include\\um -I Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/str_util.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2f4e1b4915ed088fe4f3c658c7bc0dfe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/str_util.h"
+          },
+          "hashes": {
+            "md5": "ca6a022e8c1bd03cedee4511d599088d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/windef.h"
+          },
+          "hashes": {
+            "md5": "ad8caf183cb4fa0000b6223b6aa51461"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/limits.h"
+          },
+          "hashes": {
+            "md5": "fc96350393b87d91eb02be1ad8a266bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/float.h"
+          },
+          "hashes": {
+            "md5": "c81c2c5d752d1d48d519efec68ff5b82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/string.h"
+          },
+          "hashes": {
+            "md5": "816255e0acf8676982448eb3bcdbc246"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/size_t.h"
+          },
+          "hashes": {
+            "md5": "677adb185ae0fb515f9cd7574ff3ef4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/ctype.h"
+          },
+          "hashes": {
+            "md5": "3f3fd5293fcefaacd80ab91ee5207a53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/memory.h"
+          },
+          "hashes": {
+            "md5": "64c8f50e8e055b271e9ebf8f697e1aa1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/string.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2237802dcdaa18c32e09e6d6639718da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/chartype.h"
+          },
+          "hashes": {
+            "md5": "9697ba33ba1237b62d0c265df4b620da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/sprintf.h"
+          },
+          "hashes": {
+            "md5": "bcf2d598f0ee6f790fa003d3ec023296"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/stl_string.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b191f40c294659e66b0f7126f87b9af9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/stl_string.h"
+          },
+          "hashes": {
+            "md5": "abb23c375bdf7bf6de3816e05f2390d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/iostream.h"
+          },
+          "hashes": {
+            "md5": "de992ee76c80b5fd1d3e1dd2665bd117"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/ostream.h"
+          },
+          "hashes": {
+            "md5": "1a86cc7ef38d50d821a1995c3f34cdc0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/istream.h"
+          },
+          "hashes": {
+            "md5": "fd8220f62f87e48e936e7576cad79dd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/stddef.h"
+          },
+          "hashes": {
+            "md5": "d014599bfdb8130d4cadb18751250161"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stl/ostream.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9777aea80935e5cb635a37dd802f6a72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/ds1sqe/projects/Practice/OS/sky-os/CommonLib/stl/IStream.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d5b58c71161426fd77ad368cc79111fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stdio.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b77ae1a6c4988f9368aba73b574b18fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/stdio.h"
+          },
+          "hashes": {
+            "md5": "880b31115d047ffb2466f1bc6d8a42e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/stdarg.h"
+          },
+          "hashes": {
+            "md5": "768cecf62f428d9e465f59181f34ddfc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/va_list.h"
+          },
+          "hashes": {
+            "md5": "06f1e653f514f705eabb693f22b46490"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/ffmt.h"
+          },
+          "hashes": {
+            "md5": "418239a13e07cd07cd2f46b313e89ea5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/include/stdint.h"
+          },
+          "hashes": {
+            "md5": "90284b740dec92d21fa327dac27d4b43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/sprintf.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "91c487655323220049e6400476d47d14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ds1sqe/projects/practice/os/sky-os/commonlib/memory.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "426051af2925584464cca6cfcf4088db"
+          }
+        }
+      ]
+    }
+  ]
+}
