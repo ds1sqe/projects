@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-SkyConsole",
+      "appliesTo": "Practice/OS/sky-os/codes/SkyConsole.cpp",
+      "type": "launch"
+    }
+  ]
+}
