@@ -1,0 +1,79 @@
+﻿  Performing Custom Build Tools
+  Assembling llshl.asm...
+  Assembling ulldiv.asm...
+  Assembling ullrem.asm...
+  atob.c
+  setjmp.c
+  ffmt.c
+  math.c
+  e_acos.c
+  e_asin.c
+  e_atan2.c
+  e_exp.c
+  e_fmod.c
+  e_log.c
+  e_log10.c
+  e_rem_pio2.c
+  k_cos.c
+  k_rem_pio2.c
+  k_sin.c
+  s_asinh.c
+  s_atan.c
+  s_cbrt.c
+  s_ceil.c
+  s_copysign.c
+  Generating Code...
+  Compiling...
+  s_erf.c
+  s_expm1.c
+  s_fabs.c
+  s_finite.c
+  s_floor.c
+  s_ilogb.c
+  s_isnan.c
+  s_ldexp.c
+  s_lib_version.c
+  s_log1p.c
+  s_logb.c
+  s_matherr.c
+  s_modf.c
+  s_nextafter.c
+  s_rint.c
+  s_scalbn.c
+  s_signgam.c
+  s_significand.c
+  s_sin.c
+  s_tanh.c
+  Generating Code...
+  Compiling...
+  modf.c
+C:\Users\ds1sqe\projects\projects\Practice\SkyOS\CommonLib\modf.c(22,9): warning C4274: #ident ignored; see documentation for #pragma comment(exestr, 'string')
+  unicode.c
+  wcscat.c
+  wcschr.c
+  wcscmp.c
+  wcscpy.c
+  wcslen.c
+  wcsncmp.c
+  wcsncpy.c
+  wcsnicmp.c
+  wcspbrk.c
+  wcsrchr.c
+  wcstombs.c
+  wcwidth.c
+  Generating Code...
+  ctrycatch.cpp
+  cstd.cpp
+  ctype.cpp
+  jsmn.cpp
+  memory.cpp
+  sprintf.cpp
+  stdio.cpp
+  IStream.cpp
+  OStream.cpp
+  stl_string.cpp
+  string.cpp
+  str_util.cpp
+  Generating Code...
+  vsprintf.c
+  CommonLib.vcxproj -> C:\Users\ds1sqe\projects\projects\Practice\SkyOS\Chapter\Debug\CommonLib.lib

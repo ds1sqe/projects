@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    letter-spacing:-0.02em;
+}
+
+a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.tap-menu::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+.tap-menu {
+    border-bottom: 2px solid #e5eaef;
+}
+.tap-menu-item {
+    float: left;
+    margin-right: 16px;
+}
+.tap-menu-item a {
+    display: block;
+    padding: 16px 20px;
+}
+.tap-menu-item.selected a{
+    color: #2266ff;
+    font-weight: 500;
+    border-bottom:2px solid blue;
+}

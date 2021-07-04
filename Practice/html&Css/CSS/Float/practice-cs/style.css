@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    letter-spacing: -0.02em;
+    background-color: darkblue;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f2f2f;
+}
+strong {
+    font-size: 16px;
+    color: #7f7f7f;
+    font-weight: 500;
+    line-height: 1.5;
+}
+p {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+.card {
+    padding: 20px;
+    max-width: 640px;
+    background-color: #fff;
+}
+.card-user {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.card-content {
+    float: left;
+}
+.card-content h1 {
+    display: block;
+    margin-bottom: 4px;
+}
+.card-content strong {
+    display: block;
+    margin-bottom: 12px;
+}
