@@ -1,6 +1,0 @@
-﻿  kmain.cpp
-  SkyConsole.cpp
-  Generating Code...
-LINK : warning LNK4108: /ALIGN specified without /DRIVER; image may not run
-CommonLib.lib(cstd.obj) : warning LNK4254: section '.CRT' (40000040) merged into '.data' (C0000040) with different attributes
-  Kernel.vcxproj -> C:\Users\ds1sqe\projects\Practice\OS\sky-os\Chapter\Debug\SkyOS32.EXE

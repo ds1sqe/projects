@@ -1,2 +1,0 @@
-C:\Users\ds1sqe\projects\Practice\OS\sky-os\Sorce\Debug\CommonLib.lib.lastcodeanalysissucceeded
-C:\Users\ds1sqe\projects\Practice\OS\sky-os\Sorce\CommonLib\Intermediate\NativeCodeAnalysis.read.1.tlog

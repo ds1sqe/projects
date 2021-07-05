@@ -56,6 +56,7 @@
     <GenerateManifest>false</GenerateManifest>
     <TargetName>$(ProjectName)</TargetName>
     <TargetExt>.EXE</TargetExt>
+    <IncludePath>C:\Users\ds1sqe\projects\Practice\OS\sky-os\Sorce\sorce\CommonLib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>$(Configuration)\</IntDir>
@@ -68,7 +69,7 @@
       <IntrinsicFunctions>false</IntrinsicFunctions>
       <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
-      <AdditionalIncludeDirectories>./;../../Include;./.;../../CommonLib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./;../../Include;./.;../../Include/CommonLib</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG;ARCH_X86;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <StringPooling>

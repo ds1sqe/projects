@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Practice",
+    "\\Practice\\OS",
+    "\\Practice\\OS\\sky-os",
+    "\\Practice\\OS\\sky-os\\Include",
+    "\\Practice\\OS\\sky-os\\ISOFILE",
+    "\\Practice\\OS\\sky-os\\Sorce",
+    "\\Practice\\OS\\sky-os\\Sorce\\Debug",
+    "\\Practice\\OS\\sky-os\\Sorce\\sorce"
   ],
+  "SelectedNode": "\\Practice\\OS\\sky-os\\Sorce\\sorce\\Kernel.sln",
   "PreviewInSolutionExplorer": false
 }
