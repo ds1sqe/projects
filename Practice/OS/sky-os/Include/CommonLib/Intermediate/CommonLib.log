@@ -1,0 +1,97 @@
+﻿  Performing Custom Build Tools
+  atob.c
+  setjmp.c
+  ffmt.c
+  math.c
+  e_acos.c
+  e_asin.c
+  e_atan2.c
+  e_exp.c
+  e_fmod.c
+  e_log.c
+  e_log10.c
+  e_rem_pio2.c
+  k_cos.c
+  k_rem_pio2.c
+  k_sin.c
+  s_asinh.c
+  s_atan.c
+  s_cbrt.c
+  s_ceil.c
+  s_copysign.c
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Compiling...
+  s_erf.c
+  s_expm1.c
+  s_fabs.c
+  s_finite.c
+  s_floor.c
+  s_ilogb.c
+  s_isnan.c
+  s_ldexp.c
+  s_lib_version.c
+  s_log1p.c
+  s_logb.c
+  s_matherr.c
+  s_modf.c
+  s_nextafter.c
+  s_rint.c
+  s_scalbn.c
+  s_signgam.c
+  s_significand.c
+  s_sin.c
+  s_tanh.c
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Compiling...
+  modf.c
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\modf.c(22,9): warning C4274: #ident ignored; see documentation for #pragma comment(exestr, 'string')
+  unicode.c
+  wcscat.c
+  wcschr.c
+  wcscmp.c
+  wcscpy.c
+  wcslen.c
+  wcsncmp.c
+  wcsncpy.c
+  wcsnicmp.c
+  wcspbrk.c
+  wcsrchr.c
+  wcstombs.c
+  wcwidth.c
+  Running Code Analysis for C/C++...
+  Generating Code...
+  ctrycatch.cpp
+  cstd.cpp
+  ctype.cpp
+  jsmn.cpp
+  memory.cpp
+  sprintf.cpp
+  stdio.cpp
+  IStream.cpp
+  OStream.cpp
+  stl_string.cpp
+  string.cpp
+  str_util.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  vsprintf.c
+  CommonLib.vcxproj -> C:\Users\ds1sqe\projects\Practice\OS\sky-os\Sorce\Debug\CommonLib.lib
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\jsmn\jsmn.cpp(24): warning C26812: The enum type 'jsmntype_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\e_log10.c(87): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(243): warning C6385: Reading invalid data from 'iq':  the readable size is '80' bytes, but '-8' bytes may be read.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(243): warning C6001: Using uninitialized memory 'iq'.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(194): warning C6001: Using uninitialized memory 'q'.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(194): warning C6385: Reading invalid data from 'q':  the readable size is '160' bytes, but 'jz' bytes may be read.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(293): warning C6001: Using uninitialized memory 'fq'.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(246): warning C6386: Buffer overrun while writing to 'f':  the writable size is '160' bytes, but '-8' bytes might be written.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\k_rem_pio2.c(266): warning C6386: Buffer overrun while writing to 'iq':  the writable size is '80' bytes, but 'jz' bytes might be written.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\s_erf.c(203): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\s_erf.c(259): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\s_erf.c(259): warning C26451: Arithmetic overflow: Using operator '<<' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '<<' to avoid overflow (io.2).
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\math\s_logb.c(37): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\stl\IStream.cpp(73): warning C6269: Possibly incorrect order of operations:  dereference ignored.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\stl\IStream.cpp(74): warning C6269: Possibly incorrect order of operations:  dereference ignored.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\vsprintf.c(205): warning C6269: Possibly incorrect order of operations:  dereference ignored.
+C:\Users\ds1sqe\projects\Practice\OS\sky-os\CommonLib\vsprintf.c(558): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
