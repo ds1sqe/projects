@@ -1,0 +1,8 @@
+#ignore list
+
+#vs code setting files
+
+/.vs
+/.vscode
+./*json
+
