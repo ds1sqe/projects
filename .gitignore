@@ -6,3 +6,10 @@
 /.vscode
 /*.json
 
+#Private Projects
+/Private
+
+
+#Public files and dirs
+!.gitignore
+!/Public
