@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #2b282d;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+/* style reset */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button,
+input,
+textarea {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+button:focus,
+button:active input:focus,
+input:active textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* setting of default mobile size */
+/* Global setting */
+.container {
+    max-width: none;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+h2 {
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+}
+h3 {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+}
+h4 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+}
+p {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+button {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    font-weight: 700;
+    height: 48px;
+}
+input {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+strong {
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+}
+.green {
+    color: #009b4d;
+}
+.blue {
+    color: #0189d1;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    line-height: 123%;
+    letter-spacing: -0.05em;
+    background-color: #3040c4;
+    color: #fff;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 2px;
+    transition: ease-in;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.05) 0%,
+            rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #ffffff;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.box-img {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    max-height: 195px;
+}
+.box-des {
+    margin-bottom: 32px;
+    color: inherit;
+}
+.box:hover {
+    background-color: #3040c4;
+    color: #fff;
+}
+
+.invert {
+    background-color: #fff;
+    color: #3040c4;
+}
+
+.smaller {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.01;
+}
+
+.xsmaller {
+    font-size: 14px;
+    letter-spacing: -0.01;
+    line-height: 24px;
+    color: #807f81;
+}
+.exsmaller {
+    font-size: 13px;
+    line-height: 20px;
+    color: #807f81;
+}
+
+/* local setting */
+
+/* landing section */
+
+.landing {
+    background-color: #fdded8;
+}
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.landing-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.landing-context {
+    margin-top: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.landing .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* program section */
+
+.program {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.program-small-h {
+    text-align: left;
+    margin-bottom: 8px;
+}
+.program-h {
+    margin-bottom: 24px;
+}
+.program-p {
+    margin-bottom: 32px;
+}
+
+/* curriculum section */
+.curriculum {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.curriculum-small-h {
+    text-align: left;
+    margin-bottom: 8px;
+}
+.curriculum-h {
+    margin-bottom: 24px;
+}
+.curriculum-p {
+    margin-bottom: 32px;
+}
+.curriculum-img-grid {
+    visibility: hidden;
+    display: block;
+    height: 0;
+    width: 0;
+}
+.curriculum-img {
+    display: inherit;
+    visibility: inherit;
+    height: inherit;
+    width: inherit;
+    max-width: inherit;
+}
+.curriculum-button {
+    margin-bottom: 48px;
+}
+.curriculum-des {
+    margin-bottom: 40px;
+}
+/* banner */
+.banner {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: #f2f8fa;
+}
+.banner-img {
+    margin: 0 49px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.banner-des {
+    margin-bottom: 24px;
+}
+.banner-h {
+    margin-bottom: 16px;
+}
+.banner-detail {
+    margin-bottom: 8px;
+}
+.banner-input,
+.banner-button,
+.banner-des {
+    width: 100%;
+}
+.banner-input {
+    background-color: #fff;
+    color: #7b7b7b;
+    height: 48px;
+    text-indent: 1em;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+.banner-button {
+    background-color: #3040c4;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.banner-terms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.banner-terms-a.exsmaller {
+    margin-left: 0.5em;
+    color: #3040c4;
+    text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+    background-color: none;
+    margin: 24px 0;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+.footer-list > a {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* custom grid width setting */
+/* setting of tablet-over size */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px !important;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 72px;
+        letter-spacing: -0.05em;
+    }
+    h2 {
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.03em;
+    }
+    h4 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+    }
+
+    .button {
+        width: 160px;
+        height: 56px;
+        margin: 0 8px;
+    }
+    .smaller {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+    }
+
+    /* landing */
+
+    .landing-content {
+        height: auto;
+        padding: 120px 0;
+    }
+    .landing-title {
+        margin-bottom: 32px;
+    }
+    .landing-context {
+        margin-bottom: 32px;
+    }
+
+    /* program */
+
+    .box-img {
+        margin-bottom: 24px;
+    }
+
+    .box {
+        max-height: 299px;
+    }
+    .program-small-h,
+    .program,
+    .program-h,
+    .program-p {
+        text-align: center;
+    }
+
+    .program-small-h {
+        margin-bottom: 16px;
+    }
+    .program-h {
+        margin-bottom: 32px;
+    }
+    .program-p {
+        margin-bottom: 72px;
+    }
+    /* curriculum */
+    .curriculum-img-grid {
+        visibility: visible;
+        width: inherit;
+        height: inherit;
+        margin-bottom: 24px;
+    }
+    .button.curriculum-button {
+        margin-bottom: 66px;
+    }
+    /* banner */
+    .banner-img {
+        margin-top: 80px;
+    }
+    .banner-des {
+        margin-top: 112px;
+        text-align: left;
+    }
+    .banner-detail {
+        flex-direction: row;
+        margin-bottom: 4px;
+        justify-content: left;
+        align-items: left;
+    }
+    .banner-input {
+        margin: 0;
+        padding: 0;
+        width: 66%;
+    }
+    .banner-button {
+        margin-left: 0.08;
+        padding: 0;
+        width: 32%;
+    }
+    .banner-terms {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    /* footer */
+    .footer-list {
+        flex-direction: row;
+    }
+    .footer-list > a {
+        width: fit-content;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 960px !important;
+    }
+}
