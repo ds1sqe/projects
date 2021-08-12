@@ -6,10 +6,15 @@
 /.vscode
 /*.json
 
+#node modules
+node_modules
+
 #Private Projects
 /Private
 
 
-#Public files and dirs
+
+
+#!Ignore list Public files and dirs
 !.gitignore
 !/Public
